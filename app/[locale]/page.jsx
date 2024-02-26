@@ -1,13 +1,7 @@
 import {useTranslations} from 'next-intl';
 
-type Props = {
-  params: {
-    locale: string
-  }
-};
 
-
-export default function Home({params: {locale}}: Props) {
+export default function Home({params: { locale }}) {
 
   const t = useTranslations('Home');
   return (
