@@ -1,9 +1,125 @@
 {
-    "Home": {
-      "title": "Main page title",
-      "description": "Main page description"
-    },
-    "Agenda":{
-      "title": "Agenda"
+  "Home": {
+    "title": "NORDIC NEUROLOGY CONGRESS 2024",
+    "description": "«Nordic Neurology Congress 2024» is a prestigious, fictitious conference dedicated to promoting research and collaboration in neurology. It brings together leading experts, researchers and health personnel from all over the Nordics to discuss the latest news in neurological disorders, treatment techniques and ground-breaking research. The event aims to be a catalyst for innovation and knowledge sharing in the field of neurology, with a mix of lectures, workshops and networking opportunities.",
+    "Buttons": {
+      "btn01": {
+      "text": "Agenda",
+      "link": "/agenda",
+      "youtubeid": "",
+      "src": "nnc-logo-color.png"
+      },
+      "btn02": {
+        "text": "More info",
+        "link": "/information",
+        "youtubeid": "aqz-KE-bpKQ",
+        "src": ""  
+        }
+    }
+  },
+
+  "Agenda": {
+    "title": "Program",
+    "day01": {
+      "label": "Day 1",
+      "entry01": {
+        "time": "09:00-12:00",
+        "header": "Opening Ceremony and Keynote: ",
+        "event": "«The neurology of the future - New perspectives and challenges»"
+      },
+      "entry02": {
+        "time": "12:00-12:45",
+        "header": "Lunch",
+        "event": ""
+      },
+      "entry03": {
+        "time": "12:45 - 14:00",
+        "header": "Session 1: ",
+        "event": "«Innovations in neurosurgery»"
+      },
+      "entry04": {
+        "time": "14:00–14:15",
+        "header": "Coffee break",
+        "event": ""
+      },
+      "entry05": {
+        "time": "14:15–15:30",
+        "header": "Workshop: ",
+        "event": "«Use of AI in the diagnosis of neurological disorders»"
+      },
+      "entry06": {
+        "time": "15:30–15:45",
+        "header": "Coffee break with snack",
+        "event": ""
+      },
+      "entry07": {
+        "time": "15:45–16:20",
+        "header": "Panel debate: ",
+        "event": "«Ethics in Neurological Research»"
+      },
+      "entry08": {
+        "time": "",
+        "header": "",
+        "event": ""
+      },
+      "entry09": {
+        "time": "",
+        "header": "",
+        "event": ""
       }
-}
+      },
+      "day02": {
+        "label": "Day 2",
+        "entry01": {
+          "time": "09:15–12:10",
+          "header": "Keynote: ",
+          "event": "«Genetics in neurology – Where are we going?»"
+        },
+        "entry02": {
+          "time": "12:10–12:50",
+          "header": "Lunch",
+          "event": ""
+        },
+        "entry03": {
+          "time": "12:50 - 14:00",
+          "header": "Session 2: ",
+          "event": "Neuroplasticity and Recovery"
+        },
+        "entry04": {
+          "time": "14:00–14:15",
+          "header": "Coffee break",
+          "event": ""
+        },
+        "entry05": {
+          "time": "14:15–15:30",
+          "header": "Workshop: ",
+          "event": "«Virtual Reality as a treatment method in neurology»"
+        },
+        "entry06": {
+          "time": "15:30–15:45",
+          "header": "Coffee break with snack",
+          "event": ""
+        },
+        "entry07": {
+          "time": "15:45–16:20",
+          "header": "Closing Ceremony: ",
+          "event": "«Next step for the Nordic neurology community»"
+        },
+        "entry08": {
+          "time": "16:20–19:00",
+          "header": "Self-time/free time",
+          "event": ""
+        },
+        "entry09": {
+          "time": "19:00-00:00",
+          "header": "Dinner",
+          "event": ""
+        }
+    }
+},
+"Information": {
+  "title": "Information",
+  "description": "«Nordic Neurology Congress 2024» is a prestigious, fictitious conference dedicated to promoting research and collaboration in neurology. It brings together leading experts, researchers and health personnel from all over the Nordics to discuss the latest news in neurological disorders, treatment techniques and ground-breaking research. The event aims to be a catalyst for innovation and knowledge sharing in the field of neurology, with a mix of lectures, workshops and networking opportunities.",
+  "youtubeid": "aqz-KE-bpKQ"
+    }
+  }

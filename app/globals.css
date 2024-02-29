@@ -4,7 +4,7 @@
 
 :root {
   --color-foreground: 11 32 54;              /* #0B2036 */
-  --color-background: 255 255 255;           /* #FFFFFF */
+  --color-background: 207 244 230;           /* #FFFFFF */
   --color-primary: 78 131 161;               /* #4E83A1 */
   --color-secondary: 207 244 230;           /* #CFF4E6 */
   --color-tertiary: 95 88 143;            /* #5F588F */
@@ -46,7 +46,7 @@ p, li {
 }
 
 h1 {
-  @apply text-lg sm:text-xl text-background font-bold;
+  @apply text-lg sm:text-xl mb-5 text-background font-bold;
 }
 
 h2 {
@@ -54,7 +54,7 @@ h2 {
 }
 
 h3 {
-  @apply text-base sm:text-md text-background font-bold;
+  @apply text-base sm:text-md text-background;
 }
 
 h4 {
