@@ -1,6 +1,58 @@
 {
-    "Home": {
-      "title": "Hjemmeside tittel",
-      "description": "Hjemmeside ingress"
+  "Home": {
+    "title": "NORDIC NEUROLOGY CONGRESS 2024",
+    "description": "«Nordic Neurology Congress 2024» er en prestisjefylt, fiktiv konferanse dedikert til å fremme forskning og samarbeid innen nevrologi. Den samler ledende eksperter, forskere, og helsepersonell fra hele Norden for å diskutere siste nytt innen nevrologiske lidelser, behandlingsteknikker, og banebrytende forskning. Arrangementet tar sikte på å være en katalysator for innovasjon og kunnskapsdeling i nevrologifeltet, med en blanding av foredrag, workshops, og nettverksmuligheter."
+  },
+
+  "Agenda": {
+    "title": "Program",
+    "day01": {
+      "label": "Dag 1",
+      "entries": [
+        {
+          "time": "09:00–12:00",
+          "header": "Åpningsseremoni og keynote: ",
+          "event": "«Fremtidens nevrologi - Nye perspektiver og utfordringer»"
+        },
+        {
+          "time": "09:00–12:00",
+          "header": "Åpningsseremoni og keynote: ",
+          "event": "«Fremtidens nevrologi - Nye perspektiver og utfordringer»"
+        },
+        {
+          "time": "09:00–12:00",
+          "header": "Åpningsseremoni og keynote: ",
+          "event": "«Fremtidens nevrologi - Nye perspektiver og utfordringer»"
+        },
+        {
+          "time": "09:00–12:00",
+          "header": "Åpningsseremoni og keynote: ",
+          "event": "«Fremtidens nevrologi - Nye perspektiver og utfordringer»"
+        },
+        {
+          "time": "09:00–12:00",
+          "header": "Åpningsseremoni og keynote: ",
+          "event": "«Fremtidens nevrologi - Nye perspektiver og utfordringer»"
+        }
+      ]
+    },
+    "day02": {
+      "label": "Dag 2",
+      "entry": {
+        "time": "Dag 1",
+        "event": "34.000+"
+      }
+    },
+
+    "Buttons": {
+      "link01": {
+        "text": "Program",
+        "link": "/agenda"
+      },
+      "link02": {
+        "text": "Les mer",
+        "link": "/information"
+      }
     }
+  }
 }

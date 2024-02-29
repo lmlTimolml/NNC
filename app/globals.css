@@ -3,9 +3,17 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --color-foreground: 11 32 54;              /* #0B2036 */
+  --color-background: 255 255 255;           /* #FFFFFF */
+  --color-primary: 78 131 161;               /* #4E83A1 */
+  --color-secondary: 207 244 230;           /* #CFF4E6 */
+  --color-tertiary: 95 88 143;            /* #5F588F */
+  --color-support: 252 206 165;            /* #FCCEA5 */
+  --color-disabled: 158 178 189;           /* #9EB2BD */
+  --color-dark: 8 17 26;        /*#0B1724 */
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+  font-size: 15px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,13 +25,52 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: rgb(var(--background-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      rgb(var(--foreground-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--foreground-start-rgb));
+}
+
+html {
+  color-scheme: light !important;
+}
+
+* 
+
+
+p, li {
+  @apply text-sm sm:text-base text-background;
+}
+
+h1 {
+  @apply text-lg sm:text-xl text-background font-bold;
+}
+
+h2 {
+  @apply text-md sm:text-lg text-background;
+}
+
+h3 {
+  @apply text-base sm:text-md text-background font-bold;
+}
+
+h4 {
+  @apply text-sm sm:text-base text-background font-bold;
+}
+
+small {
+  @apply text-xs italic;
+}
+
+figcaption {
+  @apply italic mt-2 text-[0.75rem];
+}
+
+label {
+  @apply text-sm text-background font-bold;
 }
 
 @layer utilities {
