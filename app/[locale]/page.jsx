@@ -21,7 +21,6 @@ export default function Home({params: { locale }}) {
     }));
 };
 
-// Extract event data for each day
 const buttonData = keys?.map((btnKey, index) => ({
     id: index + 1,
     btnInfo: getButtonData(btnKey)

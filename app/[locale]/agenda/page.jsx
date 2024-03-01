@@ -3,10 +3,9 @@ import Accordion from '../../components/accordion.jsx';
 
 export default function Agenda({ params: { locale } }) {
     const t = useTranslations('Agenda');
-    const keys = ['day01', 'day02']; // All day keys
+    const keys = ['day01', 'day02']; 
     const events = ['entry01', 'entry02', 'entry03', 'entry04', 'entry05', 'entry06', 'entry07', 'entry08', 'entry09'];
 
-    // Function to extract event data for each day
     const getEventDataForDay = (dayKey) => {
         return events?.map((event, index) => ({
             id: index + 1,
@@ -16,7 +15,6 @@ export default function Agenda({ params: { locale } }) {
         }));
     };
 
-    // Extract event data for each day
     const eventData = keys?.map((dayKey, index) => ({
         id: index + 1,
         label: t(`${dayKey}.label`),
