@@ -6,9 +6,8 @@ export default function Button({ btnInfo }) {
   return (
     <>
       {btnInfo?.map((btn, i) => (
-        <div className='drop-shadow-dark z-10 flex w-full flex-col duration-150 ease-linear sm:w-1/2 sm:max-w-[400px] sm:first:mb-auto sm:last:mt-auto sm:first:hover:mt-[-5px] sm:last:hover:mb-[5px]'>
+        <div key={i} className='drop-shadow-dark z-10 flex w-full flex-col duration-150 ease-linear sm:w-1/2 sm:max-w-[400px] sm:first:mb-auto sm:last:mt-auto sm:first:hover:mt-[-5px] sm:last:hover:mb-[5px]'>
           <Link
-            key={i}
             href={`${btn.link}`}
             className='group/btn sm:max-w-1/2 hover:drop-shadow-glow sm:second:self-center w-full rounded-b border border-secondary/70 bg-secondary/70 duration-300 ease-out overflow-hidden'>
             {btn.youtubeid && (

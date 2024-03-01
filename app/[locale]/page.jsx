@@ -9,7 +9,7 @@ export default function Home({params: { locale }}) {
   const keys = ['Buttons'];
   const buttons = ['btn01', 'btn02'];
 
-  const getButtonData = (btnKey) => {
+  const getButtonData = (btnKey, i) => {
     return buttons?.map((btn, index) => ({
         id: index + 1,
         text: t(`${btnKey}.${btn}.text`),
