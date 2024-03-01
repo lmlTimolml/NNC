@@ -62,7 +62,7 @@ h4 {
 }
 
 small {
-  @apply text-xs italic;
+  @apply text-xs text-background italic;
 }
 
 figcaption {

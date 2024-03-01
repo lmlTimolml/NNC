@@ -1,19 +1,19 @@
 {
   "Home": {
-    "title": "NORDIC NEUROLOGY CONGRESS 2024",
+    "title": "NORDIC NEUROLOGY\nCONGRESS 2024",
     "description": "«Nordic Neurology Congress 2024» er en prestisjefylt, fiktiv konferanse dedikert til å fremme forskning og samarbeid innen nevrologi. Den samler ledende eksperter, forskere, og helsepersonell fra hele Norden for å diskutere siste nytt innen nevrologiske lidelser, behandlingsteknikker, og banebrytende forskning. Arrangementet tar sikte på å være en katalysator for innovasjon og kunnskapsdeling i nevrologifeltet, med en blanding av foredrag, workshops, og nettverksmuligheter.",
     "Buttons": {
       "btn01": {
-        "text": "Program",
-        "link": "/agenda",
-        "youtubeid": "",
-        "src": "nnc-logo-color.png"
-      },
-      "btn02": {
         "text": "Les mer",
         "link": "/information",
         "youtubeid": "aqz-KE-bpKQ",
         "src": ""
+      },
+      "btn02": {
+        "text": "Program",
+        "link": "/agenda",
+        "youtubeid": "",
+        "src": "neruoactivity.jpg"
       }
     }
   },
@@ -23,37 +23,37 @@
     "day01": {
       "label": "Dag 1",
       "entry01": {
-        "time": "09:00–12:00",
+        "time": "09:00–12:00 |",
         "header": "Åpningsseremoni og keynote: ",
         "event": "«Fremtidens nevrologi - Nye perspektiver og utfordringer»"
       },
       "entry02": {
-        "time": "12:00–12:45",
+        "time": "12:00–12:45 |",
         "header": "Lunsj",
         "event": ""
       },
       "entry03": {
-        "time": "12:45–14:00",
+        "time": "12:45–14:00 |",
         "header": "Sesjon 1: ",
         "event": "«Innovasjoner innen nevrokirurgi»"
       },
       "entry04": {
-        "time": "14:00–14:15",
+        "time": "14:00–14:15 |",
         "header": "Kaffepause",
         "event": ""
       },
       "entry05": {
-        "time": "14:15–15:30",
+        "time": "14:15–15:30 |",
         "header": "Workshop: ",
         "event": "«Bruk av AI i diagnostisering av nevrologiske lidelser»"
       },
       "entry06": {
-        "time": "15:30–15:45",
+        "time": "15:30–15:45 |",
         "header": "Kaffepause med matbit",
         "event": ""
       },
       "entry07": {
-        "time": "15:45–16:20",
+        "time": "15:45–16:20 |",
         "header": "Paneldebatt: ",
         "event": "«Etikk i nevrologisk forskning»"
       },
@@ -121,5 +121,9 @@
     "title": "Informasjon",
     "description": "«Nordic Neurology Congress 2024» er en prestisjefylt, fiktiv konferanse dedikert til å fremme forskning og samarbeid innen nevrologi. Den samler ledende eksperter, forskere, og helsepersonell fra hele Norden for å diskutere siste nytt innen nevrologiske lidelser, behandlingsteknikker, og banebrytende forskning. Arrangementet tar sikte på å være en katalysator for innovasjon og kunnskapsdeling i nevrologifeltet, med en blanding av foredrag, workshops, og nettverksmuligheter.",
     "youtubeid": "aqz-KE-bpKQ"
-      }
-    }
+  },
+  "NavFoot": {
+    "text": "Tilbake",
+    "copyright": "© 2024 Nordic Neurology Congress. All rights reserved."
+  }
+}

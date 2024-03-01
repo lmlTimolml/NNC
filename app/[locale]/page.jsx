@@ -1,5 +1,4 @@
 import {useTranslations} from 'next-intl';
-import { customColors } from '../../lib/theme';
 import Button from '../components/button.jsx';
 import Image from 'next/image';
 
@@ -28,13 +27,20 @@ const buttonData = keys?.map((btnKey, index) => ({
 
   return (
     <main className='flex flex-col items-center max-w-[960px] mx-auto'>
-      <div className='z-10 mb-10 text-sm'>
-     
-      <h1>{t('title')}</h1>
-      <p>{t('description')}</p>
+      <div className='z-10 items-center justify-between text-sm flex flex-col sm:flex-row gap-6'>
+     <Image 
+     style={{ objectFit: 'contain' }}
+     height={200}
+     width={200}
+     src='/nnc-logo-color.png'
+     title='nnc-logo'
+     className='grow-0 aspect-auto h-36 sm:h-40'
+     />
+      <h1 className='flex-grow whitespace-pre text-center'>{t('title')}</h1>
+      {/* <p>{t('description')}</p> */}
 
       </div>
-      <section className='flex flex-col gap-10 sm:flex-row sm:justify-between'>
+      <section className='flex flex-col sm:h-[400px] items-center gap-10 my-10 sm:flex-row'>
       {buttonData.map((button, i) => (
     <Button key={i} btnInfo={button.btnInfo} />
   ))}
