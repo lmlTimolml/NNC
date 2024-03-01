@@ -6,14 +6,18 @@
       "btn01": {
         "text": "More info",
         "link": "/information",
-        "youtubeid": "aqz-KE-bpKQ",
-        "src": ""
+        "youtubeid": "",
+        "src": "",
+        "alt": "",
+        "copyImg": "Who we are ..."
       },
       "btn02": {
         "text": "Agenda",
         "link": "/agenda",
         "youtubeid": "",
-        "src": "neruoactivity.jpg"
+        "src": "neruoactivity.jpg",
+        "alt": "Illustration photo of a brain.",
+        "copyImg": ""
       }
     }
   },

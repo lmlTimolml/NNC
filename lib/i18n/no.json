@@ -6,14 +6,18 @@
       "btn01": {
         "text": "Les mer",
         "link": "/information",
-        "youtubeid": "aqz-KE-bpKQ",
-        "src": ""
+        "youtubeid": "",
+        "src": "",
+        "alt": "",
+        "copyImg": "Hvem vi er ..."
       },
       "btn02": {
         "text": "Program",
         "link": "/agenda",
         "youtubeid": "",
-        "src": "neruoactivity.jpg"
+        "src": "neruoactivity.jpg",
+        "alt": "Illustrajonsfoto av en hjerne.",
+        "copyImg": ""
       }
     }
   },

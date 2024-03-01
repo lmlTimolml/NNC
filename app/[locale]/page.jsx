@@ -16,6 +16,8 @@ export default function Home({params: { locale }}) {
         link: t(`${btnKey}.${btn}.link`),
         youtubeid: t(`${btnKey}.${btn}.youtubeid`),
         src: t(`${btnKey}.${btn}.src`),
+        alt: t(`${btnKey}.${btn}.alt`),
+        copyImg: t(`${btnKey}.${btn}.copyImg`),
     }));
 };
 
@@ -33,11 +35,10 @@ const buttonData = keys?.map((btnKey, index) => ({
      height={200}
      width={200}
      src='/nnc-logo-color.png'
-     title='nnc-logo'
-     className='grow-0 aspect-auto h-36 sm:h-40'
+     alt='nnc-logo'
+     className='grow-0 aspect-auto h-36 w-auto sm:h-40'
      />
       <h1 className='flex-grow whitespace-pre text-center'>{t('title')}</h1>
-      {/* <p>{t('description')}</p> */}
 
       </div>
       <section className='flex flex-col sm:h-[400px] items-center gap-10 my-10 sm:flex-row'>

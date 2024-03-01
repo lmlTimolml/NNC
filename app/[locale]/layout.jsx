@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children, params: { locale } }) {
   
   const t = useTranslations('NavFoot');
-
+  
   return (
     <html lang={locale} className='pb-10 sm:px-10'>
       <body

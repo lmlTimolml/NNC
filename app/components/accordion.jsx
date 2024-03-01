@@ -5,11 +5,10 @@ import { useState } from 'react'
 export default function Accordion({label, events}) {
 
   const [accordionOpen, setAccordionOpen] = useState(false);
-
   return (
     <div className="z-10 w-full border-t first-of-type:border-t-0 border-secondary bg-foreground/90">
       
-        <button
+        <button key={label}
           className="flex items-center justify-between w-full p-5 bg-secondary/70"
           onClick={(e) => { e.preventDefault(); setAccordionOpen(!accordionOpen); }}
           aria-expanded={accordionOpen}
