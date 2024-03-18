@@ -12,7 +12,6 @@ export default function Button({ btnInfo }) {
             className='group/btn sm:max-w-1/2 hover:drop-shadow-glow sm:second:self-center w-full rounded-b border border-secondary/70 bg-secondary/70 duration-300 ease-out overflow-hidden'>
             {btn.youtubeid && (
               <iframe
-                btnInfo={btnInfo}
                 height={540}
                 width={960}
                 src={`https://www.youtube.com/embed/${btn.youtubeid}?rel=0`}
@@ -39,7 +38,7 @@ export default function Button({ btnInfo }) {
               </div>
             )}
             <button className='flex w-full items-center justify-center py-5'>
-              <p className='text-center text-foreground group-hover/btn:ml-2'>
+              <p id={btn.text} className='text-center text-foreground group-hover/btn:ml-2'>
                 {btn.text}
               </p>
               <ChevronRightIcon className='ml-0 h-6 w-6 text-foreground opacity-0 duration-300 group-hover/btn:ml-4 group-hover/btn:opacity-100' />
